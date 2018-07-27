@@ -1,0 +1,243 @@
+html {
+    box-sizing: border-box;
+    font-size: 12px;
+}
+
+body {
+    background: #fff;
+	color: #1d2129;
+	direction: ltr;
+	line-height: 1.34;
+	margin: 0;
+	padding: 0;
+	unicode-bidi: embed;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+    outline: none;
+    margin: 0;
+	padding: 0;
+}
+
+body, button, input, label, select, td, textarea {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+
+header {
+	height: 83px;
+	background: #3b5998;
+	border-bottom: 1px solid #133783;
+}
+
+header .logoImg a {
+	float: left;
+	text-decoration: none;
+}
+
+header .logoImg a #logo {
+	display: block;
+	background: url("./gasd34sad3.png") no-repeat;
+	width: 171px;
+	height: 34px;
+}
+
+header .navbar {
+	height: 82px;
+	display: table;
+}
+
+header .logoImg {
+	display: table-cell;
+	vertical-align: bottom;
+	padding-bottom: 18px;
+	padding-left: 57px;
+
+}
+
+header .logoImg a#signupBtn {
+	background-color: #42b72a;
+	color: #fff;
+	transition: 200ms cubic-bezier(.08,.52,.52,1) background-color, 200ms cubic-bezier(.08,.52,.52,1) box-shadow, 200ms cubic-bezier(.08,.52,.52,1) transform;
+	border: 1px solid #42b72a;
+	border-radius: 2px;
+	font-size: 12px;
+	-moz-osx-font-smoothing: grayscale;
+	font-weight: bold;
+	justify-content: center;
+	padding: 5px 9px;
+	text-align: center;
+	text-shadow: none;
+	display: block;
+	margin: 6px 0 0 10px;
+}
+
+header .logoImg a#signupBtn:hover {
+	background-color: #36a420;
+	border-color: #36a420;
+}
+
+main {
+	background-color: #e9ebee;
+	padding: 80px 0;
+}
+
+main .content {
+	margin: 0 auto;
+	padding: 22px 0 26px;
+	max-width: 614px;
+	width: 100%;
+	border: 1px solid #dddfe2;
+	border-radius: 3px;
+	background-color: #fff;
+    text-align: center;
+}
+
+main .content .content-header {
+	padding: 18px 0;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #c3c6ca;
+    opacity: 1; /* Firefox */
+}
+
+input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #c3c6ca;
+}
+
+input::-ms-input-placeholder { /* Microsoft Edge */
+    color: #c3c6ca;
+}
+
+input[type='text']:invalid:focus , input[type='password']:invalid:focus {
+	border: 1px solid #8b0300;
+	background: #ffffff url('./error.png') no-repeat right 8px center;
+}
+
+
+
+
+main .content .content-form {
+	max-width: 302px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+main .content input[type='text'], main .content input[type='password']{
+    font-size: 14px;
+    padding: 8px;
+    width: 100%;
+    background: #ffffff url("./O7nsdhjdsXSI.png") repeat-x;
+	border: 1px solid #dddfe2;
+	color: #1d2129;
+	font-family: Helvetica, Arial, sans-serif;
+	line-height: 16px;
+	margin-top: 12px;
+}
+
+main .content input[type='text'] {
+	margin-top: 6px;
+}
+
+main .content input[type='submit'] {
+    font-size: 14px;
+    width: 100%;
+	background-color: #4267b2;
+	border: 1px solid #4267b2;
+	color: #fff;
+	border-radius: 2px;
+	transition: 200ms cubic-bezier(.08,.52,.52,1) background-color, 200ms cubic-bezier(.08,.52,.52,1) box-shadow, 200ms cubic-bezier(.08,.52,.52,1) transform;
+	cursor: pointer;
+	padding: 12px;
+	display: inline-block;
+	line-height: 18px;
+	font-weight: bold;
+	margin-top: 12px;
+}
+
+main .content input[type='submit']:hover {
+    background-color: #365899;
+    border-color: #365899;
+}
+
+main .content .signinLink {
+	margin-top: 15px;
+	margin-bottom: 8px;
+}
+
+main .content .signinLink a, footer a {
+    color: #365899;
+    cursor: pointer;
+    -moz-outline-style: none;
+    text-decoration: none;
+}
+
+main .content .signinLink a:hover, footer a:hover {
+	text-decoration: underline;
+}
+
+footer {
+	padding-top: 168px;
+    color: #737373;
+}
+
+footer ul.langs {
+	list-style: none;
+	padding: 0;
+	margin-bottom: 8px;
+} 
+
+footer ul.langs li, footer ul.otherLinks li{
+	display: inline-block;
+	padding-right: 10px;
+	line-height: 22px;
+}
+
+footer ul.langs li:last-child {
+	padding-right: 0;
+	color: #737373;
+}
+
+#contentCurve {
+    border-bottom: 1px solid #dddfe2;
+    font-size: 1px;
+    height: 1px;
+    margin-bottom: 8px;
+}
+
+footer ul.otherLinks {
+	list-style: none;
+} 
+
+
+footer #copyright {
+	margin: 20px 0;
+	font-size: 11px;
+}
+
+.pageFooter {
+	padding-left: 40px; 
+	padding-right: 40px; 
+}
+
+ @media (max-width:576px){
+ 	header .logoImg {
+ 		padding-left: 10px;
+ 	}
+
+ 	main .content .content-form {
+	    width: 90%;
+	}
+
+	.pageFooter {
+		padding-left: 20px; 
+		padding-right: 20px; 
+	}
+
+ }
