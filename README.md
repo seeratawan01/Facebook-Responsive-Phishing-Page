@@ -14,8 +14,14 @@ You can host this on a free server, and it does not get traced down by the autom
 
 This is purely for the educational purposes and is not intended to hurt anyone
 
-<pre>
+<pre style="display: inline-block;max-width: 30%;">
 
 <img src="https://raw.githubusercontent.com/Xuntron/Facebook-Responsive-Phishing-Page/master/mobile_demo.png">
+
+</pre>
+
+<pre style="display: inline-block;max-width: 66%;">
+
+<img src="https://raw.githubusercontent.com/Xuntron/Facebook-Responsive-Phishing-Page/master/desktop_demo.png">
 
 </pre>
